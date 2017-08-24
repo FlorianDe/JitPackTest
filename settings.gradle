@@ -1,0 +1,6 @@
+rootProject.name = 'shared-all'
+include ":kafka"
+include ":iec62505"
+
+project(":kafka").projectDir = file("./kafka")
+project(":iec62505").projectDir = file("./iec62505")
