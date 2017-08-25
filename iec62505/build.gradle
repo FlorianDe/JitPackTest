@@ -1,5 +1,5 @@
 group 'de.estream'
-version '1.0-SNAPSHOT'
+version LIBRARY_VERSION
 
 apply plugin: 'java-library'
 

@@ -1,5 +1,5 @@
 group 'de.estream'
-version '0.1.0'
+version = LIBRARY_VERSION
 
 apply plugin: 'java-library'
 
@@ -10,7 +10,7 @@ repositories {
 }
 
 subprojects {
-    version = '0.1.0'
+    version = this.version
 }
 
 dependencies {
